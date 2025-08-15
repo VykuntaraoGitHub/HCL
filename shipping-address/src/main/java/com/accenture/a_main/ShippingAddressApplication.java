@@ -13,7 +13,7 @@ public class ShippingAddressApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ShippingAddressApplication.class, args);
 		
-		System.out.println("--------------Shippig ADRESS---8090----");
+		System.out.println("--------------Shippig ADRESS---8090-- moidfied--");
 	}
 
 }
