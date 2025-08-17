@@ -18,6 +18,7 @@ public class ShippingAddressApplication {
 		System.out.println(" int value:"+a);
 		int b=a*a;
 		System.out.println("b value:"+b);
+		System.out.println(" int value square:"+a*a);
 		
 	}
 }
