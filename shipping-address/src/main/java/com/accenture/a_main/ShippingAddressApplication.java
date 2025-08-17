@@ -36,6 +36,7 @@ public class ShippingAddressApplication implements CommandLineRunner {
           for (String arg : args) {
               System.out.println("Argument: " + arg);
           }
+          System.out.println(" testing pull command---------------");
       	testDemo.m1();
 		
 	}
