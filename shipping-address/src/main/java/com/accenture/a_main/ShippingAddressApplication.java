@@ -16,6 +16,7 @@ public class ShippingAddressApplication {
 		System.out.println("--------------Shippig ADRESS---8090-- moidfied--");
 		int a=10;
 		System.out.println(" int value:"+a);
+		System.out.println(" int value square:"+a*a);
 		
 	}
 }
