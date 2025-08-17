@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+
+import com.accenture.a_main.TestDemo;
 @Configuration
 public class AddressDBConfiguration {
 
@@ -22,6 +24,12 @@ public class AddressDBConfiguration {
 		return new ModelMapper();
 	}
 
+	
+	@Bean
+	public TestDemo getTestDemoObject() {
+		
+		return new TestDemo();
+	}
 	@Bean
 	public DataSource dataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
