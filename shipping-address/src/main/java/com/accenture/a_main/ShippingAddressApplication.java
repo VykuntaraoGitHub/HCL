@@ -23,12 +23,9 @@ public class ShippingAddressApplication implements CommandLineRunner {
 		int b=a*a;
 		System.out.println("b value:"+b);
 		System.out.println(" int value square:"+a*a);
-		
 		String name="Meena Kumari";
 		System.out.println("my Wife name:"+name);
-		
 		System.out.println("-----------calling testdemo method testDemo=");
-	
 		
 	}
 
@@ -39,7 +36,6 @@ public class ShippingAddressApplication implements CommandLineRunner {
           for (String arg : args) {
               System.out.println("Argument: " + arg);
           }
-          
       	testDemo.m1();
 		
 	}
