@@ -7,7 +7,8 @@ public class TestDemo {
 	
 	public void m1() {
 		System.out.println(" Tesd Dmeocalll - modifed for PULL command praactice");
-		
+		String girlFriednName="Sangeetha";
+		System.out.println(" my lover name:"+girlFriednName);
 	}
 
 }
