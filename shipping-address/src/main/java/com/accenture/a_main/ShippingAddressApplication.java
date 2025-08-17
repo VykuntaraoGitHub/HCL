@@ -14,7 +14,8 @@ public class ShippingAddressApplication {
 		SpringApplication.run(ShippingAddressApplication.class, args);
 		
 		System.out.println("--------------Shippig ADRESS---8090-- moidfied--");
-		String str="vykuntarao";
+		int a=10;
+		System.out.println(" int value:"+a);
+		
 	}
-
 }
